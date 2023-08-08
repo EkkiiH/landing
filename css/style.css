@@ -1,0 +1,85 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* import content */
+@import url("components/buttons.css");
+@import url("components/cards.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.white-txt{
+  color: #fff;
+}
+
+.txt-shdw{
+  text-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
+}
+
+.banner{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(107, 21, 21, 0.8)), url("https://images.unsplash.com/photo-1637858868799-7f26a0640eb6");
+  background-size: cover;
+  background-position: 0 30%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding: 8em 0;
+  margin-bottom: 2em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.banner > .container > p {
+  font-size: 18px;
+  opacity: 0.8;
+  margin-bottom: 2em;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+/* https://source.unsplash.com/random/?city,night */
+footer {
+  background-color: #3d0707;
+  background-size: cover;
+  background-position: 0 30%;
+  margin-top: 4em;
+  padding: 4em 0;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socials{
+  width: 400px;
+  font-size: 34px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
