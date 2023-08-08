@@ -7,3 +7,14 @@
   padding: 1em 2em;
   margin: 4em 0;
 }
+
+.btn-red:hover {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #470c04;
+  color: #fff;
+  border-radius: 2em;
+  padding: 1em 2em;
+  margin: 4em 0;
+  transition: 0.3 ease;
+}

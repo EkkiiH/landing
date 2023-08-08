@@ -83,3 +83,15 @@ footer {
   justify-content: space-evenly;
   flex-wrap: nowrap;
 }
+
+.socials>a{
+  color: #fff;
+}
+
+.socials>a:hover{
+  color: #ddaeae;
+  transition: 0.2 ease;
+}
+.socials>a:active{
+  color: #fff;
+}
